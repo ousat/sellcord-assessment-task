@@ -1,4 +1,4 @@
-Sellcord Assessment Task
+## Sellcord Assessment Task
 
 Django based application to track disputes and returns raised by customers.
 
@@ -14,14 +14,14 @@ copy environment files and update the environment values, then run docker compos
 
 
 for creating customers, orders and disputes - check [Assessment Task.postman_collection.json](https://github.com/ousat/sellcord-assessment-task/blob/master/Assessment%20Task.postman_collection.json)
-can only create disputes and returns using APIs, to edit - a staff/admin user should log into /admin and update the values 
+
+APIs only allow you to create disputes and returns, to edit - a staff/admin user should log into `/admin` console and update the values 
 
 
-the following path would let you view disputes loading via htmx -
-                                /disputes
+the following path would let you view disputes loading via htmx - `/disputes`
 
 
-Architectural Overview - 
-            This is a simple django project using postgreSQL DB and docker.
+### Architectural Overview - 
+            This is a simple django project using postgreSQL DB and docker. Consists of four tables.
 
 
