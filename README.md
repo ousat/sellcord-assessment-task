@@ -21,5 +21,7 @@ the following path would let you view disputes loading via htmx -
                                 /disputes
 
 
+Architectural Overview - 
+            This is a simple django project using postgreSQL DB and docker.
 
 
